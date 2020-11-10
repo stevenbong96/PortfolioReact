@@ -1,0 +1,51 @@
+[
+    {
+        "id": 1,
+        "name": "Employee Directory",
+        "image": "https://placekitten.com/200/200",
+        "github": "https://github.com/stevenbong96/EmplyeDirect",
+        "deployed": ""
+    },
+    {
+        "id": 2,
+        "name": "Tracking Budget",
+        "image": "https://placekitten.com/200/200",
+        "github": "https://github.com/stevenbong96/TrackingBudget",
+        "deployed": ""
+    },
+    {
+        "id": 3,
+        "name": "Gym Track",
+        "image": "https://placekitten.com/200/200",
+        "github": "https://github.com/stevenbong96/GymTrack",
+        "deployed": ""
+    },
+    {
+        "id": 4,
+        "name": "Burger Handlebars",
+        "image": "https://placekitten.com/200/200",
+        "github": "https://github.com/stevenbong96/WABHndlBars",
+        "deployed": ""
+    },
+    {
+        "id": 5,
+        "name": "Employee Generator",
+        "image": "https://placekitten.com/200/200",
+        "github": "https://github.com/stevenbong96/EmployeeGenerator",
+        "deployed": ""
+    },
+    {
+        "id": 6,
+        "name": "Note Generator",
+        "image": "https://placekitten.com/200/200",
+        "github": "https://github.com/stevenbong96/NoteGen",
+        "deployed": ""
+    },
+    {
+        "id": 7,
+        "name": "Profile Generator",
+        "image": "https://placekitten.com/200/200",
+        "github": "https://github.com/stevenbong96/ProfileGen",
+        "deployed": ""
+    }
+]

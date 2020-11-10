@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "name": "Indecisive",
+        "image": "../public/images/nDecisive",
+        "github": "https://github.com/MaxHanson07/Indecisive",
+        "deployed": "https://maxhanson07.github.io/Indecisive/"
+    },
+    {
+        "id": 2,
+        "name": "Personality Quiz",
+        "image": "../public/images/personify",
+        "github": "https://github.com/emilygoeres/Personality-Quiz",
+        "deployed": "https://personify-personality-quiz.herokuapp.com/"
+    },
+    {
+        "id": 3,
+        "name": "Satsop Bulb Farm",
+        "image": "",
+        "github": "",
+        "deployed": ""
+    }
+]
