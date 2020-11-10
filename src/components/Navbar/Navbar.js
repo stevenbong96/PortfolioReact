@@ -32,10 +32,10 @@ function Navbar() {
         //     <Link to="/contact">Contact</Link>
         // </div>
         <div className={classes.root}>
-            <AppBar position="static">
+            <AppBar position="static" color="grey">
                 <Toolbar>
                     <IconButton edge="start" className={classes.menuButton} color="inherit" aria-label="menu">
-                        <HomeIcon />
+                        <Link to="/"><HomeIcon /></Link>
                     </IconButton>
                     <Typography variant="h6" className={classes.title}>
                         <Link to="/about">About Me</Link>
