@@ -6,12 +6,15 @@ import Container from '@material-ui/core/Container';
 
 function Home() {
     return (
-        <React.Fragment>
-            <CssBaseline/>
-            <Container>
-                <Typography component="div" style={{ backgroundColor: '#cfe8fc', height: '75vh' , marginTop: "5%"}} />
-            </Container>
-        </React.Fragment>
+        // <React.Fragment>
+        //     <CssBaseline/>
+        //     <Container>
+        //         <Typography component="div" style={{ backgroundColor: '#cfe8fc', height: '75vh' , marginTop: "5%"}} />
+        //     </Container>
+        // </React.Fragment>
+        <div>
+            <h1>Welcome to Steven Bong's Portfolio</h1>
+        </div>
     )
 }
 

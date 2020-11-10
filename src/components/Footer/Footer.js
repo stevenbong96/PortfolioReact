@@ -9,6 +9,7 @@ const useStyles = makeStyles((theme) => ({
         top: "auto",
         bottom: 0,
         alignItems: "center",
+        marginTop: "3%"
     },
 }));
 

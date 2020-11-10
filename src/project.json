@@ -2,14 +2,14 @@
     {
         "id": 1,
         "name": "Indecisive",
-        "image": "../public/images/nDecisive",
+        "image": "https://github.com/MaxHanson07/Indecisive/blob/dev/screenshot.png",
         "github": "https://github.com/MaxHanson07/Indecisive",
         "deployed": "https://maxhanson07.github.io/Indecisive/"
     },
     {
         "id": 2,
         "name": "Personality Quiz",
-        "image": "../public/images/personify",
+        "image": "https://user-images.githubusercontent.com/69055538/97255448-dbe6c280-17cd-11eb-9b75-e8d8775f26be.png",
         "github": "https://github.com/emilygoeres/Personality-Quiz",
         "deployed": "https://personify-personality-quiz.herokuapp.com/"
     },
