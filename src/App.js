@@ -6,6 +6,7 @@ import About from "./pages/About/About";
 import Homework from "./pages/Homework/Homework";
 import Project from "./pages/Project/Project";
 import Contact from "./pages/Contact/Contact";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route exact path="/project"><Project /></Route>
         <Route exact path="/contact"><Contact /></Route>
       </Switch>
+      <Footer />
     </Router>
   );
 }
