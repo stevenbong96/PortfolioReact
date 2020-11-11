@@ -10,6 +10,7 @@ import Footer from "./components/Footer/Footer";
 import ProjectData from "./project.json";
 import HomeworkData from "./homework.json";
 import Grid from '@material-ui/core/Grid';
+import "./App.css";
 
 function App() {
   return (
@@ -19,14 +20,14 @@ function App() {
         <Route exact path="/"><Home /></Route>
         <Route exact path="/about"><About /></Route>
         <Route exact path="/homework">
-          <Grid container direction="row" justify="space-around" alignItems="center">
+          <Grid container direction="row" justify="space-around" alignItems="center" className="homewStyle">
             {HomeworkData.map(homew => {
               return <Homework name={homew.name} image={homew.image} github={homew.github} deploy={homew.deployed}/>
             })}
           </Grid>
         </Route>
         <Route exact path="/project">
-          <Grid container direction="row" justify="space-around" alignItems="center">
+          <Grid container direction="row" justify="space-around" alignItems="center" className="projectStyle">
             {ProjectData.map(project => {
               return <Project name={project.name} image={project.image} github={project.github} deploy={project.deployed} />
             })}

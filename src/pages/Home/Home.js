@@ -12,7 +12,7 @@ function Home() {
         //         <Typography component="div" style={{ backgroundColor: '#cfe8fc', height: '75vh' , marginTop: "5%"}} />
         //     </Container>
         // </React.Fragment>
-        <div>
+        <div className="homeStyle">
             <h1>Welcome to Steven Bong's Portfolio</h1>
         </div>
     )
