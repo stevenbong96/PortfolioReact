@@ -24,18 +24,18 @@ const useStyles = makeStyles({
 function Project(props) {
     const classes = useStyles();
 
-    // const [githubInfo, setGithubInfo] = useState({
-    //     project: "",
-    // })
+    // const [githubInfo, setGithubInfo] = useState([])
 
     // useEffect(() => {
     //     loadGithubInfo();
     // }, [])
-
+    // // loadGithubInfo();
     // function loadGithubInfo () {
     //     API.getGithub()
     //     .then(res => {
-    //         console.log(res);
+    //         setGithubInfo(res.data);
+    //         // console.log(githubInfo)
+    //         // return;
     //     })
     //     .catch(err => {
     //         console.log(err);

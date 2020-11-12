@@ -1,8 +1,10 @@
-[
+import project1Image from "./images/nDecisive.JPG";
+
+const projectObj = [
     {
         "id": 1,
         "name": "Indecisive",
-        "image": "https://github.com/MaxHanson07/Indecisive/blob/dev/screenshot.png",
+        "image": project1Image,
         "github": "https://github.com/MaxHanson07/Indecisive",
         "deployed": "https://maxhanson07.github.io/Indecisive/"
     },
@@ -16,8 +18,10 @@
     {
         "id": 3,
         "name": "Satsop Bulb Farm",
-        "image": "",
+        "image": "https://students.dts.edu/wp-content/uploads/sites/5/2020/01/coming-soon.png",
         "github": "",
         "deployed": ""
     }
 ]
+
+export default projectObj
