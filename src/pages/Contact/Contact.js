@@ -48,16 +48,16 @@ function Contact() {
                         <Grid item xs={12} >
                             <h1 className={classes.blackColor}>Contact Me!</h1>    
                         </Grid>
-                        <Grid item xs={12} sm={6}>
+                        <Grid item xs={12} >
                             <TextField
-                                className={classes.margin}
+                                className={classes.textStyle}
                                 id="input-with-icon-textfield"
                                 label="First Name"
                             />
                         </Grid>
-                        <Grid item xs={12} sm={6}>
+                        <Grid item xs={12} >
                             <TextField
-                                className={classes.margin}
+                                className={classes.textStyle}
                                 id="input-with-icon-textfield"
                                 label="Last Name"
                             />

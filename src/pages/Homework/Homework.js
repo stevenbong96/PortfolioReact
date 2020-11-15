@@ -44,7 +44,7 @@ function Homework(props) {
 
     return (
         <Grid item>
-            <Card className={classes.root}>
+            <Card className={classes.root} spacing={1}>
                 <CardActionArea>
                     <CardMedia
                         className={classes.media}
@@ -56,8 +56,7 @@ function Homework(props) {
                             {props.name}
                     </Typography>
                         <Typography variant="body2" color="textSecondary" component="p">
-                            Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging
-                            across all continents except Antarctica
+                            Coming Soon!
                     </Typography>
                     </CardContent>
                 </CardActionArea>
