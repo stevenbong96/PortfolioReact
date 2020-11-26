@@ -1,0 +1,14 @@
+.projectPage {
+    width: 65%;
+    margin: 0 auto;
+}
+
+.groupText{
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.projectStyle{
+    padding-bottom: 2%;
+}
