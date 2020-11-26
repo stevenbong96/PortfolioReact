@@ -3,7 +3,8 @@ import { makeStyles } from '@material-ui/core/styles';
 import Paper from '@material-ui/core/Paper';
 import Grid from '@material-ui/core/Grid';
 import Typography from "@material-ui/core/Typography";
-import TextField from '@material-ui/core/TextField';
+// import TextField from '@material-ui/core/TextField';
+import profileImage from "../../images/profile.jpeg";
 
 const useStyles = makeStyles((theme) => ({
     root: {
@@ -14,17 +15,24 @@ const useStyles = makeStyles((theme) => ({
             width: theme.spacing(16),
             height: theme.spacing(16),
         },
+        minHeight: "77vh"
     },
     paper: {
-        padding: theme.spacing(2),
-        textAlign: 'center',
+        padding: theme.spacing(3),
         color: theme.palette.text.secondary,
         marginTop: "3%",
         display: "flex",
         margin: "auto",
         width: "50%",
         height: "30vh",
+        paddingBottom: "2%"
     },
+    title: {
+        textAlign: "center",
+    },
+    aboutText: {
+        textAlign: "justify",
+    }
 }));
 
 function About() {
@@ -34,15 +42,27 @@ function About() {
         <div className={classes.root}>
             <Paper className={classes.paper} justify="center" elevation={3}>
                 <Grid container spacing={3}>
-                    <Grid item xs={12}>
+                    {/* <Grid item xs={3}>
                         <Typography variant="h3" gutterBottom>
-                           About Me
+                           <img src={profileImage} alt="image"/>
                         </Typography>
-                        {/* <p>A full stack web developer with demonstrated experience as a Civil Drafter for a year and have background in Mechanical Engineering. A detail-oriented engineer who is effective to perform problem solving assignments within guidelines. Dedicated to keep learning, adjust, and grow to achieve success in the competitive industry</p> */}
-                        <Typography variant="h5" gutterBottom>
+                    </Grid> */}
+                    <Grid item xs={12}>
+                        <Typography variant="h3" gutterBottom className={classes.title}>
+                            About Me
+                        </Typography>
+                    </Grid>
+                    <Grid item xs={3}>
+                        <Typography variant="h3" gutterBottom>
+                            <img src={profileImage} alt="image" />
+                        </Typography>
+                    </Grid>
+                    <Grid item xs={9}>
+                        <Typography variant="h5" gutterBottom className={classes.aboutText}>
                             A full stack web developer with demonstrated experience as a Civil Drafter for a year and have background in Mechanical Engineering. A detail-oriented engineer who is effective to perform problem solving assignments within guidelines. Dedicated to keep learning, adjust, and grow to achieve success in the competitive industry
                         </Typography>
                     </Grid>
+
                 </Grid>
             </Paper>
         </div>
