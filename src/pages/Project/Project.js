@@ -52,11 +52,11 @@ function Project() {
                 Challenges
             </Typography>
 
-            {/* <Grid container direction="row" justify="space-around" alignItems="center" className="challengeStyle">
+            <Grid container direction="row" justify="space-around" alignItems="center" className="challengeStyle">
                 {homeworkObj.map(homeW => {
                     return <Challenges name={homeW.name} image={homeW.image} github={homeW.github} deploy={homeW.deployed} />
                 })}
-            </Grid> */}
+            </Grid>
 
         </div>
     )

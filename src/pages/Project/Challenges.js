@@ -10,6 +10,7 @@ import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
 import Grid from '@material-ui/core/Grid';
 import Link from '@material-ui/core/Link';
+import "./project.css";
 
 const useStyles = makeStyles({
     root: {
@@ -32,14 +33,15 @@ function Challenges(props){
                         <CardMedia
                             className={classes.media}
                             image={props.image}
-                            title="Contemplative Reptile"
+                            title="HW Image"
                         />
                         <CardContent>
                             <Typography gutterBottom variant="h5" component="h2">
                                 {props.name}
                             </Typography>
                             <Typography variant="body2" color="textSecondary" component="p">
-                                {props.descrp}
+                                {/* {props.descrp} */}
+                                Coming Soon!
                         </Typography>
                         </CardContent>
                     </CardActionArea>
