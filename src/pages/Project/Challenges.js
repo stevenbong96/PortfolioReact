@@ -10,12 +10,13 @@ import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
 import Grid from '@material-ui/core/Grid';
 import Link from '@material-ui/core/Link';
-import "./project.css";
+// import "./project.css";
 
 const useStyles = makeStyles({
     root: {
         maxWidth: 345,
         marginTop: "3%",
+        marginBottom: "6%"
     },
     media: {
         height: 140,
@@ -33,15 +34,15 @@ function Challenges(props){
                         <CardMedia
                             className={classes.media}
                             image={props.image}
-                            title="HW Image"
+                            title="Hw Image"
                         />
                         <CardContent>
                             <Typography gutterBottom variant="h5" component="h2">
                                 {props.name}
                             </Typography>
                             <Typography variant="body2" color="textSecondary" component="p">
-                                {/* {props.descrp} */}
-                                Coming Soon!
+                                {props.descr}
+                                {/* Coming Soon! */}
                         </Typography>
                         </CardContent>
                     </CardActionArea>
@@ -52,9 +53,14 @@ function Challenges(props){
                         </Link>
                         </Button>
                         <Button size="small" color="primary">
-                            <Link href={props.deploy} target="_blank">
-                                Deployed Website
-                        </Link>
+                            {props.deploy.length > 0 ? 
+                                <Link href={props.deploy} target="_blank">
+                                    Deployed Website
+                                </Link>
+                            :   <Link href="/project">
+                                    Deployed Website
+                                </Link>
+                            }
                         </Button>
                     </CardActions>
                 </Card>

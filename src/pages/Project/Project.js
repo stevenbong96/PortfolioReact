@@ -54,7 +54,7 @@ function Project() {
 
             <Grid container direction="row" justify="space-around" alignItems="center" className="challengeStyle">
                 {homeworkObj.map(homeW => {
-                    return <Challenges name={homeW.name} image={homeW.image} github={homeW.github} deploy={homeW.deployed} />
+                    return <Challenges name={homeW.name} image={homeW.image} github={homeW.github} deploy={homeW.deployed} descr={homeW.description}/>
                 })}
             </Grid>
 
