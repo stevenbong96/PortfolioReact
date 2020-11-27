@@ -23,7 +23,7 @@ const useStyles = makeStyles((theme) => ({
         display: "flex",
         margin: "auto",
         width: "50%",
-        height: "70vh",
+        height: "72vh",
         paddingBottom: "2%"
     },
     title: {

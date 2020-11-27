@@ -30,13 +30,6 @@ function Footer() {
     const classes = useStyles();
 
     return (
-        // <AppBar position="fixed" color="primary" className={classes.appBar}>
-        //     <Toolbar>
-        //         <Typography variant="h6" className={classes.title}>
-        //             Thank you for visiting!
-        //         </Typography>
-        //     </Toolbar>
-        // </AppBar>
         <footer className={classes.footer}>
             <Container maxWidth="sm">
                 <Typography variant="body1">Thank you for visiting my portfolio!</Typography>
