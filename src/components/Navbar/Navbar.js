@@ -28,20 +28,14 @@ function Navbar() {
                     <IconButton edge="start" className={classes.menuButton} color="inherit" aria-label="menu">
                         <Link to="/"><HomeIcon /></Link>
                     </IconButton>
-                    {/* <Typography variant="h6" className={classes.title}>
-                        <Link to="/about">About Me</Link>
-                    </Typography> */}
-                    {/* <Typography variant="h6" className={classes.title}>
-                        <Link to="/homework">Homework</Link>
-                    </Typography>
-                    <Typography variant="h6" className={classes.title}>
-                        <Link to="/project">Project</Link>
-                    </Typography> */}
                     <Typography variant="h6" className="navbarText">
                         <Link to="/about">About Me</Link>
                     </Typography>
                     <Typography variant="h6" className="navbarText">
                         <Link to="/project">Projects</Link>
+                    </Typography>
+                    <Typography variant="h6" className="navbarText">
+                        <Link to="/resume">Resume</Link>
                     </Typography>
                     <Typography variant="h6" className="navbarText">
                         <Link to="/contact">Contact</Link>
