@@ -34,9 +34,9 @@ function Navbar() {
                     <Typography variant="h6" className="navbarText">
                         <Link to="/project">Projects</Link>
                     </Typography>
-                    <Typography variant="h6" className="navbarText">
+                    {/* <Typography variant="h6" className="navbarText">
                         <Link to="/resume">Resume</Link>
-                    </Typography>
+                    </Typography> */}
                     <Typography variant="h6" className="navbarText">
                         <Link to="/contact">Contact</Link>
                     </Typography>

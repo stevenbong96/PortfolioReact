@@ -17,7 +17,7 @@ function App() {
         <Route exact path="/"><Home /></Route>
         <Route exact path="/about"><About /></Route>
         <Route exact path="/project"><Project /></Route>
-        <Route exact path="/resume"><Resume /></Route>
+        {/* <Route exact path="/resume"><Resume /></Route> */}
         <Route exact path="/contact"><Contact /></Route>
       </Switch>
       <Footer />
