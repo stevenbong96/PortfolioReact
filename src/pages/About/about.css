@@ -1,0 +1,10 @@
+.aboutText {
+    text-align: justify;
+    /* display: flex;
+    flex-direction: row; */
+}
+
+.profilePic{
+    float: left;
+    padding-right: 2%;
+}

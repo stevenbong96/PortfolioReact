@@ -1,5 +1,4 @@
 .homeStyle {
-    /* background-color: lightblue; */
     min-height: 73vh;
 }
 
@@ -9,4 +8,10 @@ h1{
     padding-top: 15%;
     color: black;
     font-size: 60px;
+}
+
+@media (max-width: 800px) {
+    .homeStyle {
+        min-height: 79vh;
+    }
 }

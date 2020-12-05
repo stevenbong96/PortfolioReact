@@ -8,7 +8,7 @@ import logoObj from "../../logo";
 const useStyles = makeStyles((theme) => ({
     root: {
         display: 'flex',
-        // flexWrap: 'wrap',
+        flexWrap: 'wrap',
         '& > *': {
             margin: theme.spacing(1),
             width: theme.spacing(16),

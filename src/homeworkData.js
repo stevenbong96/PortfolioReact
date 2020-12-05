@@ -4,13 +4,14 @@ import gymtrackImage from "./images/gymtrack.JPG";
 import burgerImage from "./images/handlebars.jpg";
 import emplyGenImage from "./images/employee.jpg";
 import noteImage from "./images/notes.jpg";
+import bookImage from "./images/googlebooks.JPG";
 // import profileImage from "./images/emplydirect.JPG";
 
 const homeworkObj = [
     {
         "id": 1,
         "name": "Google Books Search",
-        "image": emplyImage,
+        "image": bookImage,
         "github": "https://github.com/stevenbong96/GoogleBookSearch",
         "deployed": "https://powerful-ridge-65955.herokuapp.com/",
         "description": "This app is using a full MERN application in a single repository and built using Google Books API with a full CRUD functionality for users when they search for books"

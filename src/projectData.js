@@ -1,4 +1,5 @@
 import project1Image from "./images/nDecisive.JPG";
+import project3Image from "./images/satsopbulb.JPG";
 
 const projectObj = [
     {
@@ -20,7 +21,7 @@ const projectObj = [
     {
         "id": 3,
         "name": "Satsop Bulb Farm",
-        "image": "https://students.dts.edu/wp-content/uploads/sites/5/2020/01/coming-soon.png",
+        "image": project3Image,
         "github": "https://github.com/stevenbong96/satsop-bulp-farm-front-end",
         "deployed": "https://satsopbulbfarm.herokuapp.com/",
         "description": "A family farm and have been in the business of growing flower bulbs since the mid 1930's. Currently the fourth generation to continue to own and operate this venture"
