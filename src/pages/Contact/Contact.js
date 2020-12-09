@@ -1,9 +1,8 @@
 import React from "react";
 import { makeStyles } from '@material-ui/core/styles';
-import TextField from '@material-ui/core/TextField';
 import Grid from '@material-ui/core/Grid';
 import Paper from '@material-ui/core/Paper';
-import Button from '@material-ui/core/Button';
+import Typography from '@material-ui/core/Typography';
 import "./contact.css";
 
 const useStyles = makeStyles((theme) => ({
@@ -32,9 +31,9 @@ const useStyles = makeStyles((theme) => ({
     },
     blackColor: {
         color: "black",
-        display: "flex",
-        marginLeft: "35%",
-        paddingTop: "3%"
+        // display: "flex",
+        // marginLeft: "35%",
+        paddingTop: "2%"
     }
 }));
 
@@ -47,45 +46,40 @@ function Contact() {
                 <Paper className={classes.paper}>
                     <Grid container spacing={3} className="contactStyle">
                         <Grid item xs={12} >
-                            <h1 className={classes.blackColor}>Contact Me!</h1>    
+                            <Typography variant="h4" gutterBottom className={classes.blackColor}>
+                                My Contact Information
+                            </Typography>
                         </Grid>
                         <Grid item xs={12} >
-                            <TextField
-                                className={classes.textStyle}
-                                id="input-with-icon-textfield"
-                                label="First Name"
-                            />
+                            <Typography variant="body1" gutterBottom className={classes.blackColor}>
+                                Email:{" "}
+                                <a
+                                    href={`mailto:bong.steven96@gmail.com`}
+                                >
+                                    bong.steven96@gmail.com
+                                </a>
+                            </Typography>
                         </Grid>
                         <Grid item xs={12} >
-                            <TextField
-                                className={classes.textStyle}
-                                id="input-with-icon-textfield"
-                                label="Last Name"
-                            />
+                            <Typography variant="body1" gutterBottom className={classes.blackColor}>
+                                LinkedIn Profile: {" "}
+                                <a
+                                    href="https://www.linkedin.com/in/steven-bong-ab461213a/" target="_blank"
+                                >
+                                    Steven Bong
+                                </a>
+                            </Typography>
                         </Grid>
-                        <Grid item xs={12}>
-                            <TextField
-                                className={classes.textStyle}
-                                id="input-with-icon-textfield"
-                                label="Email"
-                            />
+                        <Grid item xs={12} >
+                            <Typography variant="body1" gutterBottom className={classes.blackColor}>
+                                Github Profile: {" "}
+                                <a
+                                    href="https://github.com/stevenbong96" target="_blank"
+                                >
+                                    Steven Bong
+                                </a>
+                            </Typography>
                         </Grid>
-                        <Grid item xs={12}>
-                            <TextField
-                                className={classes.textStyle}
-                                id="input-with-icon-textfield"
-                                label="Telephone"
-                            />
-                        </Grid>
-                        <Grid item xs={12}>
-                            <TextField
-                                className={classes.textStyle}
-                                id="input-with-icon-textfield"
-                                label="Message"
-                            />
-                        </Grid>
-                        
-                        <Button className={classes.button}>Submit</Button>
                     </Grid>
                 </Paper>
             </form>
